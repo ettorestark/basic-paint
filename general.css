@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sideBar a{
+	position: absolute;
+	padding: 1em;
+	width: 140px;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 0 .4em .4em 0;
+	left: -120px;
+	transition: 0.3s;
+}
+
+.sideBar a:hover {
+	left: 0;
+}
+
+.color { background-color: #ccc; top: 50px;  }
+.color input[type=color] {
+	border: none;
+	width: 100%;
+}
+#brush { background: #4CAF50; top: 130px; }
+#eraser { background: #2196F3; top: 210px; }
+#download { background: #f44336; top: 290px; }
+
+#size {
+	position: absolute;
+	padding: 1em;
+	bottom: : 0;
+	color: #fff;
+	left: 0;
+	background-color: #888;
+}
